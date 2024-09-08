@@ -212,7 +212,7 @@ class TestApp:
                 }
             )
 
-            assert response.status_code == 200
+            assert response.status_code == 201
             assert response.content_type == 'application/json'
             response = response.json
 
